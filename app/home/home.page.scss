@@ -1,0 +1,291 @@
+p, ion-card-title, ion-title, ion-button {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.phone-frame{
+  text-align: center;
+  border-radius: 10px;
+  max-width: 290px;
+  box-shadow: 10px 10px 10px rgba(0.1, 0, 0, 0.2);
+}
+
+ion-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: 100vh; 
+
+}
+
+ion-row{
+  justify-content: center;
+}
+
+ion-title{
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+::ng-deep ion-card-header.header-silver, ::ng-deep ion-card-header.header-gold {
+  background-color: #17181f !important;  
+  color: #ffffff !important; 
+  padding: 10px !important; 
+  text-align: center !important;  
+}
+
+::ng-deep ion-card-title {
+  font-size: 18px !important;  
+  font-weight: bold !important;  
+  text-align: center !important;    
+  margin: 0;
+  padding: 0;
+}
+
+::ng-deep ion-card-header.header-platinum{
+  background-image: linear-gradient(#5EACEA, #50A2C4, #499A96);
+  color: white !important;
+  padding: 10px;
+}
+
+.smaller-title {
+  font-size: 15px;
+}
+
+.larger-title {
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.smaller-title-gold{
+  font-size: 15px !important;
+  color: gold !important;
+}
+
+.red-text{
+  color:red;
+}
+.price {
+  font-size: 36px; 
+  font-weight: bold;
+  display: flex;
+  justify-content: center; 
+  align-items: baseline;
+}
+
+.dollar-sign {
+  font-size: 55px; 
+  margin-right: 1px;
+}
+
+.whole-number {
+  font-size: 57px; 
+  font-weight: bold;
+}
+
+.decimal {
+  font-size: 22px; 
+  margin-left: 1px; 
+}
+
+::ng-deep ion-button{
+  color: white !important;
+  text-transform: none !important;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+::ng-deep ion-button img {
+  margin-right: 10px; 
+  width: 20px; 
+  height: auto; 
+}
+
+::ng-deep.footer {
+  background-color: #499a95 !important;
+  padding: 10px;    
+  text-align: center; 
+  color: white;       
+  width: 100%; 
+  box-sizing: border-box;
+  margin: 0;
+  position:relative;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+::ng-deep ion-card-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.small-img{
+  width: 145px;
+}
+.product-img{
+  width: 80px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.six-bot-img{
+  width: 250px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 10px;
+  
+}
+
+.one-month-supply{
+  margin: 8px;
+  
+}
+
+.regular-price{
+  margin-bottom: 5px;
+}
+
+p,.regular-price{
+  line-height: 1;
+}
+
+.shipping{
+  font-size: 12px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.cards{
+  margin-top: 5px;
+  width: 110px;
+}
+
+.image-circle-container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle {
+  width: 70px; 
+  height: 70px;
+  background-color: #499a95; 
+  border-radius: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  font-size: 15px; 
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  border: 3px solid #f7e896;
+  transform: rotate(15deg);
+}
+
+.platinum-card{
+  background-color: #e3fffc;
+  margin: 0;
+  
+}
+
+.six-bots{
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.supply-text{
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.shipping-text{
+  font-size: 12px;
+}
+
+.text-circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.circle2 {
+  width: 70px; 
+  height: 70px;
+  background-color: #499a95; 
+  border-radius: 50%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+  font-size: 15px; 
+  font-weight: bold;
+  margin-left: 4px; 
+  border: 3px solid #f7e896;
+  transform: rotate(15deg);
+}
+
+.reg-price-four-twenty{
+  margin: 8px;
+
+}
+
+.three-bots-img{
+  width: 150px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; 
+}
+
+
+.circle-overlay {
+  position: absolute;
+  top: -10px; 
+  right: -40px; 
+  width: 70px;
+  height: 70px;
+  background-color: #499a95;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3px solid #f7e896;
+  transform: rotate(15deg);
+  z-index: 1; 
+}
